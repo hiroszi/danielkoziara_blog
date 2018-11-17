@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>danielkoziara.pl/jekyll/update/2018/11/17/welcome-to-jekyll.html</loc>
+<loc>http://localhost:4000/welcome-to-jekyll</loc>
 <lastmod>2018-11-17T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>danielkoziara.pl/about/</loc>
+<loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>danielkoziara.pl/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>danielkoziara.pl/category/jekyll/</loc>
+<loc>http://localhost:4000/category/jekyll/</loc>
 </url>
 <url>
-<loc>danielkoziara.pl/category/update/</loc>
+<loc>http://localhost:4000/category/update/</loc>
 </url>
 </urlset>
