@@ -19,5 +19,8 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+url: "danielkoziara.pl"
+
 plugins:
     - jekyll-admin
+    - jekyll-sitemap
