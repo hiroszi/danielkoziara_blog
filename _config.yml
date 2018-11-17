@@ -25,6 +25,7 @@ plugins:
     - jekyll-admin
     - jekyll-sitemap
     - jekyll-archives
+    - jekyll-paginate
 jekyll-archives:
     enabled:
         - categories
