@@ -1,3 +1,0 @@
-[submodule "_plugins/--force"]
-	path = _plugins/--force
-	url = https://github.com/episource/jekyll-uncss.git
