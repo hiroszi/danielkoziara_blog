@@ -29,7 +29,7 @@ plugins:
 jekyll-archives:
     enabled:
         - categories
-    layout: 'archive'
+    layout: 'category'
     permalinks:
 #        year: '/:year/'
 #        month: '/:year/:month/'
