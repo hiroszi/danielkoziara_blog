@@ -1,23 +1,86 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
+</div>
+
+
+<div class="container">
+    
+    <div class="main-content">
+        
+
+        <!-- Featured
+        ================================================== -->
+        <section class="featured-posts">
+
+            <div class="section-title">
+                <h2><span>polecane</span></h2>
+            </div>
+
+            <div class="row listfeaturedtag">
+
+            {% for post in site.posts %}
+
+                {% if post.featured == true %}
+
+                    {% include featuredbox.html %}
+
+                {% endif %}
+
+            {% endfor %}
+
+            </div>
+
+        </section>
+
+        <!-- Posts Index
+        ================================================== -->
+         {% if paginator.previous_page %}
+                {% if paginator.previous_page > 0 %}
+                 <div id="jumptopageof"></div>
+        {% endif %}
+        {% endif %}    
+
+        <section class="recent-posts row">
+
+            <div class="col-sm-4">
+                {% include sidebar.html %}
+            </div>
+
+            <div class="col-sm-8">
+
+                <div class="section-title">
+                    <h2><span>ostatnio dodane</span></h2>    
+                </div>
+
+                <div class="masonrygrid row listrecent">
+
+                    {% for post in paginator.posts %}
+
+                    {% unless post.featured == true %}
+
+                        {% include postbox.html %}
+
+                    {% endunless %}
+
+                    {% endfor %}
+
+                </div> 
+
+                <!-- Pagination -->
+                <div class="bottompagination">
+
+                    <span class="navigation" role="navigation">
+
+                        {% include pagination.html %}
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
