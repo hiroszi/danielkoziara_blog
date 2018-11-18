@@ -28,15 +28,5 @@ url: "danielkoziara.pl"
 plugins:
     - jekyll-admin
     - jekyll-sitemap
-    - jekyll-archives
     - jekyll-paginate
-jekyll-archives:
-    enabled:
-        - categories
-    layout: 'category'
-    permalinks:
-#        year: '/:year/'
-#        month: '/:year/:month/'
-#        day: '/:year/:month/:day/'
-#        tag: '/tag/:name/'
-        category: '/category/:name/'
+    - jekyll-feed
