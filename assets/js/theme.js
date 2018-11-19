@@ -29,25 +29,29 @@ jQuery(document).ready(function($){
     })
 
 
-    // alertbar later
-    $(document).scroll(function () {
-        var y = $(this).scrollTop();
-        if (y > 280) {
-            $('.alertbar').fadeIn();
-        } else {
-            $('.alertbar').fadeOut();
-        }
-    });
-
-     // masonry
-    if ($('.masonrygrid').length){
-      var $grid = $('.masonrygrid').masonry({
-      itemSelector: '.grid-item'
-      });
-      $grid.imagesLoaded().progress( function() {
-        $grid.masonry();
-      });
-    }
+/*
+ *    // alertbar later
+ *    $(document).scroll(function () {
+ *        var y = $(this).scrollTop();
+ *        if (y > 280) {
+ *            $('.alertbar').fadeIn();
+ *        } else {
+ *            $('.alertbar').fadeOut();
+ *        }
+ *    });
+ *
+ */
+	/*
+     * // masonry
+     *if ($('.masonrygrid').length){
+     *  var $grid = $('.masonrygrid').masonry({
+     *  itemSelector: '.grid-item'
+     *  });
+     *  $grid.imagesLoaded().progress( function() {
+     *    $grid.masonry();
+     *  });
+     *}
+	 */
 
  
         // Smooth scroll to an anchor
