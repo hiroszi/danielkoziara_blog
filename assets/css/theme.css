@@ -242,7 +242,7 @@ section.recent-posts {
 	color:rgba(0,0,0,.6);
 	text-decoration:none;
 }
-.listfeaturedtag h4.card-text,.listrecent h4.card-text {
+.listfeaturedtag h4.card-text,.listrecent p.card-text {
     color: #666;
     font-size: 0.95rem;
     line-height: 1.8;

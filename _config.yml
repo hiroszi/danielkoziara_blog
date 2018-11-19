@@ -1,22 +1,16 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-name: 'DanielKoziara.pl - Programista'
-title: Your awesome title
-email: your-email@domain.com
-description: Daniel Koziara - programista do wynajęcia oraz bloger. 
-meta_description: Meta opis
-baseurl: "" # the subpath of your site, e.g. /blog
+name: 'DanielKoziara.pl'
+title: Programista do wynajęcia - DanielKoziara.pl
+email: kontakt@danielkoziara.pl 
+description: Blog o technologiach do tworzenia stron internetowych. Znajdziesz też trochę informacji o web design'u.
+baseurl: ""
 paginate: 12
 google_analytics: 'UA-129381766-1'
+favicon: 'assets/images/favicon.ico'
 lang: pl_PL
 email: kontakt@danielkoziara.pl
 disqus: 'danielkoziara'
+paginate_path: "/strona/:num"
 # Build settings
 markdown: kramdown
 
