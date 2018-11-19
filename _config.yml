@@ -1,28 +1,28 @@
-# Site settings
-name: 'DanielKoziara.pl'
+name: DanielKoziara.pl
 title: Programista do wynajęcia - DanielKoziara.pl
-email: kontakt@danielkoziara.pl 
-description: Blog o technologiach do tworzenia stron internetowych. Znajdziesz też trochę informacji o web design'u.
-baseurl: ""
-paginate: 12
-google_analytics: 'UA-129381766-1'
-favicon: 'assets/images/favicon.ico'
-lang: pl_PL
 email: kontakt@danielkoziara.pl
-disqus: 'danielkoziara'
-paginate_path: "/strona/:num"
-# Build settings
+description: >-
+  Blog o technologiach do tworzenia stron internetowych. Znajdziesz też trochę
+  informacji o web design'u.
+baseurl: ''
+paginate: 12
+google_analytics: UA-129381766-1
+favicon: assets/images/favicon.ico
+lang: pl_PL
+disqus: danielkoziara
+paginate_path: '/strona/:num'
 markdown: kramdown
-
-permalink: /:slug
-
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
-
-url: "danielkoziara.pl"
-
+permalink: '/:slug'
+exclude:
+  - _screenshots
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+url: danielkoziara.pl
 plugins:
-    - jekyll-admin
-    - jekyll-sitemap
-    - jekyll-paginate
-    - jekyll-feed
-    - jekyll-seo-tag
+  - jekyll-admin
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag

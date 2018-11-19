@@ -4,13 +4,8 @@ disqus: false
 archive: false
 post_class: post-template
 ---
-
-<!-- Begin Article
-================================================== -->
-
 	<div class="row">
 
-		<!-- Post -->        
         {% assign author = site.authors[page.author] %}
         
 		<div class="col-md-8 col-lg-8">
@@ -22,7 +17,7 @@ post_class: post-template
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                         <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                         <a href="{{ site.baseurl }}/kategoria/{{ category | slugify }}">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>
