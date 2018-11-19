@@ -8,76 +8,76 @@ title: Polski blog o Web Dev
 
 
 <div class="container">
-    
-    <div class="main-content">
+
+	<div class="main-content">
 		{% comment %} 
-        <section class="featured-posts">
+		<section class="featured-posts">
 
-            <div class="section-title">
-                <h2><span>polecane</span></h2>
-            </div>
+			<div class="section-title">
+				<h2><span>polecane</span></h2>
+			</div>
 
-            <div class="row listfeaturedtag">
+			<div class="row listfeaturedtag">
 
-            {% for post in site.posts %}
+				{% for post in site.posts %}
 
-                {% if post.featured == true %}
+				{% if post.featured == true %}
 
-                    {% include featuredbox.html %}
+				{% include featuredbox.html %}
 
-                {% endif %}
+				{% endif %}
 
-            {% endfor %}
+				{% endfor %}
 
-            </div>
+			</div>
 
-        </section>
+		</section>
 		{% endcomment  %}
-        <!-- Posts Index
-        ================================================== -->
-         {% if paginator.previous_page %}
-                {% if paginator.previous_page > 0 %}
-                 <div id="jumptopageof"></div>
-        {% endif %}
-        {% endif %}    
+		<!-- Posts Index
+	  ================================================== -->
+	  {% if paginator.previous_page %}
+	  {% if paginator.previous_page > 0 %}
+	  <div id="jumptopageof"></div>
+	  {% endif %}
+	  {% endif %}    
 
-        <section class="recent-posts row">
+	  <section class="recent-posts row">
 
-            <div class="col-sm-4">
-                {% include sidebar.html %}
-            </div>
 
-            <div class="col-sm-8">
+		  <div class="col-sm-8">
 
-                <div class="section-title">
-                    <h2><span>ostatnio dodane</span></h2>    
-                </div>
+			  <div class="section-title">
+				  <h2><span>ostatnio dodane</span></h2>    
+			  </div>
 
-                <div class="masonrygrid row listrecent">
+			  <div class="masonrygrid row listrecent">
 
-                    {% for post in paginator.posts %}
+				  {% for post in paginator.posts %}
 
-                    {% unless post.featured == true %}
+				  {% unless post.featured == true %}
 
-                        {% include postbox.html %}
+				  {% include postbox.html %}
 
-                    {% endunless %}
+				  {% endunless %}
 
-                    {% endfor %}
+				  {% endfor %}
 
-                </div> 
+			  </div> 
 
-                <!-- Pagination -->
-                <div class="bottompagination">
+			  <!-- Pagination -->
+			  <div class="bottompagination">
 
-                    <span class="navigation" role="navigation">
+				  <span class="navigation" role="navigation">
 
-                        {% include pagination.html %}
+					  {% include pagination.html %}
 
-                    </span>
+				  </span>
 
-                </div>
+			  </div>
 
-            </div>
+		  </div>
 
-        </section>
+		  <div class="col-sm-4">
+			  {% include sidebar.html %}
+		  </div>
+	  </section>
