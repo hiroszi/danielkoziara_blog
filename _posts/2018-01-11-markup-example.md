@@ -1,7 +1,8 @@
 ---
-layout: post-right-sidebar
+layout: post
 title:  "Markdown Example"
-author: john
+description: Test opisu
+author: Daniel Koziara
 categories: [ Jekyll, tutorial ]
 image: assets/images/6.jpg
 ---
