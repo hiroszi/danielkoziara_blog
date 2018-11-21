@@ -4,7 +4,7 @@ email: kontakt@danielkoziara.pl
 description: >-
   Blog o technologiach do tworzenia stron internetowych. Znajdziesz też trochę
   informacji o web design'u.
-baseurl: '/'
+baseurl: ''
 paginate: 12
 google_analytics: UA-129381766-1
 favicon: assets/images/favicon.ico
