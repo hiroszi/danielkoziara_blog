@@ -6,8 +6,8 @@ description: Quokka.js jest dodatkiem do Visual Studio Code, który natychmiasto
 author: Daniel Koziara
 categories:
 - javascript
-image: assets/images/dodatek-quokka.webp
-permalink: natychmiastowe-uruchomienie-kodu-js
+image: assets/images/dodatek-quokka.png
+permalink: natychmiastowe-uruchamianie-kodu-js
 ---
 
 **Quokka.js** to szybkie narzędzie do prototypowania w javascript oraz typescript. Uruchomi twój kod natychmiast po wpisaniu i wyświetli wynik poniżej w konsoli. Idealnie sprawuje się do małych i dużych projektów.
