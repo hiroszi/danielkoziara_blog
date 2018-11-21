@@ -1,5 +1,5 @@
 ---
-title: Natychmiastowe uruchamianie kodu JS - Quokka.js
+title: Natychmiastowe uruchomienie kodu JS - Quokka.js
 layout: post
 description: Quokka.js jest dodatkiem do Visual Studio Code, który natychmiastowo
   uruchamia prototypowany kod javascript lub typescript.
